@@ -24,7 +24,7 @@
     </style>
 </head>
 
-<body class="font-sans antialiased min-h-screen w-full bg-white relative">
+<body class="font-sans antialiased min-h-[90vh] w-full bg-white relative">
     <div class="">
         <!-- Page Content -->
         @include('Home.layouts.navbar')

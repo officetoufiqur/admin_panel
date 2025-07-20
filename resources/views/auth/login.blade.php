@@ -1,6 +1,11 @@
+@include('Home.layouts.navbar')
 <x-guest-layout>
     <!-- Session Status -->
-    <x-auth-session-status class="mb-4" :status="session('status')" />
+    {{-- <x-auth-session-status class="mb-4" :status="session('status')" /> --}}
+
+    <div class="text-center py-5">
+        <h1 class="text-2xl font-bold">Login Form</h1>
+    </div>
 
     <form method="POST" action="{{ route('login') }}">
         @csrf

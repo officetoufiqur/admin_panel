@@ -15,12 +15,12 @@ $classes = ($active ?? false)
 
 @php
     $linkClasses = $active
-        ? 'flex items-center p-2 text-gray-900 bg-gray-100 rounded-lg group'
-        : 'flex items-center p-2 text-gray-500 hover:text-gray-900 rounded-lg hover:bg-gray-100 group';
+        ? 'flex items-center p-2 text-purple-600 bg-gray-100 rounded-lg group'
+        : 'flex items-center p-2 text-gray-600 hover:text-purple-600 rounded-lg hover:bg-gray-100 group';
 
     $iconClasses = $active
-        ? 'text-gray-900 text-lg'
-        : 'text-gray-500 text-lg group-hover:text-gray-900';
+        ? 'text-purple-600 text-lg'
+        : 'text-gray-600 text-lg group-hover:text-purple-600';
 @endphp
 
 <a {{ $attributes->merge(['class' => $linkClasses]) }}>

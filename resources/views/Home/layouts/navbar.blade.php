@@ -3,12 +3,12 @@
         <div class="flex justify-between h-16 items-center">
             <!-- Brand -->
             <div class="flex items-center gap-4">
-                <h1 class="text-2xl font-bold text-gray-900">BrandName</h1>
+                <a href="{{ route('home') }}" class="text-2xl font-bold text-gray-900">BrandName</a>
             </div>
 
             <!-- Desktop Links -->
             <div class="hidden lg:flex gap-8">
-                <a href="#" class="text-lg font-medium text-gray-900 hover:text-gray-600 transition">Dashboard</a>
+                <a href="{{ route('dashboard') }}" class="text-lg font-medium text-gray-900 hover:text-gray-600 transition">Dashboard</a>
                 <a href="#" class="text-lg font-medium text-gray-900 hover:text-gray-600 transition">Team</a>
                 <a href="#" class="text-lg font-medium text-gray-900 hover:text-gray-600 transition">Projects</a>
                 <a href="#" class="text-lg font-medium text-gray-900 hover:text-gray-600 transition">Calendar</a>

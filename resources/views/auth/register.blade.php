@@ -1,4 +1,8 @@
+@include('Home.layouts.navbar')
 <x-guest-layout>
+     <div class="text-center py-5">
+        <h1 class="text-2xl font-bold">Register Form</h1>
+    </div>
     <form method="POST" action="{{ route('register') }}">
         @csrf
 
